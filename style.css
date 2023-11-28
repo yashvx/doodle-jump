@@ -1,0 +1,28 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  background-image: url("./doodlejumpbg.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#play-button {
+  background-color: red;
+  border-width: 2px;
+  border-color: black;
+  color: white;
+  font-size: x-large;
+  padding: 1em 2em;
+}
+
+#board {
+  border: 2px solid black;
+}
